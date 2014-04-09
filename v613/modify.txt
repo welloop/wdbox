@@ -1,0 +1,13 @@
+1.修改汉化文件
+admin\com\language\default\language.php
+
+2.修改发送,回复地址：
+admin\functions\api\send.php
+
+3.修改邮件头
+admin\functions\api\ss_email.php
+
+4.修改发送速度的连接数
+admin\com\ext\interspire_email\email.php
+
+$_smtp_max_email_count
